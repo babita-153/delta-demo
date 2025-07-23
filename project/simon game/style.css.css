@@ -1,0 +1,50 @@
+body{
+    text-align: center;
+}
+
+.btn-container{
+  margin:50px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+    height: 300px;
+    width:300px;
+   
+}
+.btn{
+   
+    align-self:center ;
+    height: 100px;
+    width:100px;
+    border: 4px solid black;
+    border-radius: 20%;
+}
+.first{
+    background-color: rgb(226, 43, 116);
+}
+.second{
+    background-color: rgba(43, 150, 226, 0.772);
+}
+.third{
+    background-color: rgb(226, 119, 43);
+}
+.fourth{
+    background-color: rgba(28, 64, 173, 0.868);
+}
+.gameFlash{
+    background-color: white;
+}
+
+.userFlash{
+    background-color:green;
+}
+
+#btn{
+    padding:5px;
+    font-size: 20px;
+    border-radius: 8px;
+}
+p{
+    font-size: 20px;
+    font-weight: 700;
+}
